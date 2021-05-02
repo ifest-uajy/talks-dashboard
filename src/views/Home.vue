@@ -1,14 +1,172 @@
 <template>
-  <div class="container my-5">
-    disini nanti kasi data seminar e
-    yg kaya di web ifest.
-    <button
-      class="btn btn-primary"
-      @click.prevent="onRegister"
-    >
-      Daftar
-    </button>
-    * Masuk menggunakan akun google
+  <div>
+    <div class="com one-com">
+      <div class="container">
+          <div class="ccom" data-flickity='{"content":true, "wrapAround":true, "autoPlay":2500, "pageDots":false, "prevNextButtons": false}' data-aos="fade-up" data-aos-delay="200">
+              <div class="dcom bflex">
+                  <div class="ldcom">
+                      <div class="sflex mb-3">
+                          <div class="ov-img">
+                              <img src="../assets/image/logo.png">
+                          </div>
+                          <div>
+                              <h2>Sharing Alumni</h2>
+                          </div>
+                      </div>
+                      <div class="cat sflex">
+                          <label class="lab l-blue">Berbayar</label>
+                          <label class="lab l-green" style="margin-left: 5px; margin-right: 5px;">FTI UAJY</label>
+                          <label class="lab l-red">1 Maret 2021</label>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa facilis dignissimos at, et excepturi ab nesciunt saepe eum, omnis fuga quaerat nisi. Possimus consequuntur, soluta molestias ea eaque facilis maiores.</p>
+                      <a class="btn btn-logins" href="daftar.php">Daftar</a>
+                  </div>
+                  <div class="rdcom">
+                      <img src="../assets/image/tes2.png">
+                  </div>
+              </div>
+          </div>
+          <img src="../assets/image/abs2.png" class="abs" data-aos="zoom-in" data-aos-delay="300">
+      </div>
+    </div>
+
+    <div class="speak">
+      <div class="container">
+          <div class="cspeak bflex">
+              <div class="lspeak">
+                  <h2 data-aos="fade-up" data-aos-delay="200">Speakers</h2>
+                  <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae totam, consectetur harum dicta repellat minus ea doloremque expedita quia nulla, saepe, odit eaque. Dicta aspernatur facere sunt doloremque nihil quo.</p>
+              </div>
+              <div class="rspeak" data-flickity='{"content":true, "wrapAround":true, "autoPlay":3000, "pageDots":false, "prevNextButtons": false, "cellAlign":"left"}' data-aos="fade-up" data-aos-delay="500">
+                  <div class="dspeak">
+                      <img src="../assets/image/back.jpg">
+                      <h2>Pujayana</h2>
+                      <h3>Mahasiswa Atma Jaya</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nam voluptas nobis quas. Quos nisi odit porro mollitia consectetur, dolorem unde beatae sit maiores nemo ex id, possimus voluptas incidunt?</p>
+                      <ul>
+                          <li><a href="#"><i class="icon-social-facebook"></i></a></li>
+                          <li><a href="#"><i class="icon-social-instagram"></i></a></li>
+                          <li><a href="#"><i class="icon-social-twitter"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="dspeak">
+                      <img src="../assets/image/logo.png">
+                      <h2>Vriyas Hartama</h2>
+                      <h3>Mahasiswa Atma Jaya</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nam voluptas nobis quas. Quos nisi odit porro mollitia consectetur, dolorem unde beatae sit maiores nemo ex id, possimus voluptas incidunt?</p>
+                      <ul>
+                          <li><a href="#"><i class="icon-social-facebook"></i></a></li>
+                          <li><a href="#"><i class="icon-social-instagram"></i></a></li>
+                          <li><a href="#"><i class="icon-social-twitter"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="dspeak">
+                      <img src="../assets/image/back.jpg">
+                      <h2>Jolly</h2>
+                      <h3>Mahasiswa Atma Jaya</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nam voluptas nobis quas. Quos nisi odit porro mollitia consectetur, dolorem unde beatae sit maiores nemo ex id, possimus voluptas incidunt?</p>
+                      <ul>
+                          <li><a href="#"><i class="icon-social-facebook"></i></a></li>
+                          <li><a href="#"><i class="icon-social-instagram"></i></a></li>
+                          <li><a href="#"><i class="icon-social-twitter"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="container">
+          <div class="htimeline">
+              <h2 data-aos="fade-up" data-aos-delay="200">Timeline Seminar</h2>
+          </div>
+          <div class="btimeline" data-aos="fade-up" data-aos-delay="300">
+              <div class="ov-timeline sflex">
+                  <div class="dtimeline sflex active">
+                      <div class=ltl>
+                          <img src="../assets/image/logo.png">
+                      </div>
+                      <div class="dtl">
+                          <h5>1 Februari 2021</h5>
+                          <p>Pendaftaran & Upload Proposal</p>
+                      </div>
+                  </div>
+                  <div class="dtimeline sflex">
+                      <div class=ltl>
+                          <img src="../assets/image/logo.png">
+                      </div>
+                      <div class="dtl">
+                          <h5>1 Februari 2021</h5>
+                          <p>Pendaftaran & Upload Proposal</p>
+                      </div>
+                  </div>
+                  <div class="dtimeline sflex">
+                      <div class=ltl>
+                          <img src="../assets/image/logo.png">
+                      </div>
+                      <div class="dtl">
+                          <h5>1 Februari 2021</h5>
+                          <p>Pendaftaran & Upload Proposal</p>
+                      </div>
+                  </div>
+                  <div class="dtimeline sflex">
+                      <div class=ltl>
+                          <img src="../assets/image/logo.png">
+                      </div>
+                      <div class="dtl">
+                          <h5>1 Februari 2021</h5>
+                          <p>Pendaftaran & Upload Proposal</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="hfooter bflex">
+                    <ul>
+                        <li>Competition</li>
+                        <li><a href="i2c">I2C</a></li>
+                        <li><a href="competitive-programming">Competitive Programming</a></li>
+                        <li><a href="video-competition">Video Competition</a></li>
+                        <li><a href="wdc">WDC</a></li>
+                    </ul>
+                    <ul>
+                        <li>Event</li>
+                        <li><a href="coming">Sharing Alumni</a></li>
+                        <li><a href="coming">Seminar Nasional</a></li>
+                    </ul>
+                    <ul>
+                        <li>Access</li>
+                        <li><a href="https://dashboard.ifest-uajy.com/register">Daftar</a></li>
+                        <li><a href="https://dashboard.ifest-uajy.com/login">Login</a></li>
+                    </ul>
+                    <ul style="max-width: 350px;">
+                        <li>Subscribe</li>
+                        <li>
+                            <p>Dapatkan info terbaru mengenai IFest #9, tenang kami tidak akan menyepammu.</p>
+                            <form action="" class="form-group sflex">
+                                <input type="text" class="form-control" placeholder="Masukan email...">
+                                <button class="btn btn-primary btn-blue ml-2" type="submit">Subscribe</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bfooter bflex">
+                    <p>&copy; 2021 by SI IFest #9. All rights reserved.</p>
+                    <ul>
+                        <li><a><i class="icon-social-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/ifest_uajy/" target="blank"><i class="icon-social-instagram"></i></a></li>
+                        <li><a><i class="icon-social-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
   </div>
 </template>
 
@@ -45,3 +203,1334 @@ export default {
   }
 }
 </script>
+
+<style>
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: regular;
+    color: #363740;
+}
+
+@font-face {
+    font-family: bold;
+    src: url('../assets/font/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: medium;
+    src: url('../assets/font/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: regular;
+    src: url('../assets/font/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: light;
+    src: url('../assets/font/Roboto-Light.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: bold;
+    color: #363740;
+}
+
+p,
+span,
+a,
+label,
+input,
+select,
+option {
+    font-family: regular;
+    color: #363740;
+}
+
+.sflex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Login ---> */
+
+.login{
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+.llogin{
+    height: 100vh;
+    width: 40%;
+    padding: 100px 50px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.llogin img{
+    height: 50px;
+    margin-bottom: 25px;
+}
+.content{
+    max-width: 550px;
+}
+
+.llogin p a{
+    text-decoration: none;
+    color: #41ADFF;
+}
+.llogin p:last-child {
+    margin-top: 35px;
+}
+
+.btn-login{
+    font-family: medium;
+    width: 100%;
+    background-color: #41ADFF;
+    border-color: #41ADFF;
+}
+.btn-login:hover{
+    background-color: #3698E3;
+    border-color: #3698E3;
+}
+
+.rlogin{
+    height: 100vh;
+    width: 60%;
+    overflow: hidden;
+    transition: .5s;
+}
+.rlogin img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* <--- Login */
+
+/* Header & Footer ---> */
+
+.container{
+    max-width: 1000px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: #fff;
+    transition: .5s;
+    z-index: 99;
+}
+
+.fixed {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    animation-name: header;
+    animation-duration: 1s;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+    z-index: 99;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-15%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.header .navbar-brand {
+    font-family: regular;
+    font-size: 20px !important;
+    color: #0B0202 !important;
+}
+
+.header .navbar-brand img{
+    height: 35px;
+}
+
+.header .nav-item {
+    margin: 0px 15px;
+}
+
+.header .nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header .nav-link,
+.header .dropdown-item {
+    font-family: regular;
+    font-size: 15px;
+    color: #0B0202 !important;
+    transition: .5s;
+}
+
+.header .dropdown-item:focus{
+    background-color: #f8f9fa;
+}
+
+.header .dropdown-menu {
+    padding: 0;
+    border: 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.header .dropdown-item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header .nav-link:hover {
+    color: #363740 !important;
+    transition: .5s;
+}
+
+.header .navbar-toggler {
+    outline: none !important;
+}
+
+.btn-logins {
+    font-family: medium;
+    border-radius: 35px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #363740;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn-logins:hover {
+    color: #0B0202;
+}
+
+.footer{
+    height: auto;
+    width: 100%;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    background-color: #212937;
+}
+.hfooter{
+    align-items: flex-start;
+}
+.hfooter li{
+    font-family: medium;
+    display: block;
+    list-style: none;
+    color: #959CA8;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.hfooter a{
+    font-family: regular;
+    text-transform: none;
+    color: #fff;
+}
+.hfooter p{
+    text-transform: none;
+    font-size: 15px;
+    color: #959CA8;
+}
+
+.bfooter{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1.5px solid #545c6b;
+}
+.bfooter p{
+    font-size: 15px;
+    color: #959CA8;
+}
+.bfooter li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+.bfooter i{
+    font-size: 15px;
+    color: #959CA8;
+    transition: .5s;
+}
+.bfooter a{
+    text-decoration: none;
+}
+.bfooter a:hover i{
+    color: #fff;
+    transition: .5s;
+}
+
+/* <--- Header & Footer */
+
+/* Index ---> */
+
+.idx{
+    visibility: hidden;
+    opacity: 0;
+    transition: .1s;
+}
+.idx.action{
+    visibility: visible;
+    opacity: 1;
+    transition: .1s;
+}
+
+.title{
+    height: auto;
+    width: 100%;
+    padding: 175px 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.title .container{
+    position: relative;
+}
+.title .container > img {
+    position: absolute;
+    height: 250px;
+    width: auto;
+    left: -125px;
+    bottom: -150px;
+}
+.ctitle{
+    position: relative;
+    max-width: 600px;
+    z-index: 9;
+}
+.ctitle img{
+    height: 75px !important;
+    width: auto;
+}
+.ctitle h1{
+    font-size: 45px;
+    font-style: italic;
+    color: #363740;
+    margin: 35px 0px 15px;
+}
+.ctitle p{
+    font-size: 20px;
+    font-style: italic;
+    color: #0B0202;
+}
+
+.com{
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 150px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.com .container {
+    position: relative;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.abs {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    right: -100px;
+    bottom: -75px;
+}
+.one-com{
+    padding-top: 175px;
+}
+.ccom{
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 0px 45px 35px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.ccom:before{
+    position: absolute;
+    content: '';
+    height: 350px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 35px;
+    transform: rotate(2deg);
+    background-image: linear-gradient(#6C7BFF, #00A3FF);
+    z-index: 0;
+}
+.dcom{
+    position: relative;
+    align-items: flex-end;
+    height: auto;
+    width: 100%;
+}
+/* Fade CSS */
+
+.ccom .flickity-slider {
+    transform: none !important;
+}
+
+.dcom {
+    left: 0 !important;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.dcom.is-selected {
+    opacity: 1;
+    z-index: 0
+}
+
+.ldcom{
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    margin-right: 35px;
+    padding: 35px 0px 15px 25px;
+}
+.ov-img{
+    display: block;
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.ov-img img{
+    height: auto;
+    width: 100%;
+}
+.ldcom h2,
+.ldcom h3,
+.ldcom h4 {
+    margin: 0 0 0 10px;
+    color: #fff;
+}
+.ldcom p{
+    font-family: light;
+    color: #fff;
+}
+.ldcom a {
+    text-decoration: underline;
+    font-family: medium;
+    color: #fff;
+}
+.ldcom .btn-logins{
+    text-decoration: none;
+    color: #363740 !important;
+    margin-right: 10px;
+}
+.cat{
+    flex-flow: wrap;
+}
+.rulebook{
+    text-decoration: none !important;
+}
+.rulebook:hover{
+    text-decoration: underline !important;
+}
+.rdcom{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    overflow: auto;
+    z-index: 999;
+}
+.rdcom img{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: top;
+    z-index: 999;
+}
+
+.rdcom::-webkit-scrollbar{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: #dee4e7;
+}
+.rdcom::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #363740;
+}
+
+.info{
+    height: auto;
+    width: 100%;
+    padding-bottom: 175px;
+    background-color: #fff;
+}
+.hinfo h2{
+    color: #363740;
+}
+.hinfo p{
+    font-family: 'light';
+    font-size: 1rem;
+}
+.binfo {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+.dinfo{
+    height: auto;
+    width: 30%;
+    margin: 0px 15px;
+}
+.lab{
+    height: auto;
+    width: auto;
+    font-family: 'medium';
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+}
+.l-blue{
+    background-color: #E1EAFE;
+    color: #3F3393;
+}
+.l-green{
+    background-color: #D8F6EA;
+    color: #004A38;
+}
+.l-red{
+    background-color: #FDE4F1;
+    color: #911542;
+}
+.dinfo h4{
+    font-family: 'medium';
+    font-size: 20px;
+}
+.dinfo p{
+    font-family: 'light';
+    font-size: 14px;
+    color: #616774;
+    margin-top: 10px;
+}
+.dinfo a {
+    text-decoration: none;
+    font-family: medium;
+    font-size: 14px;
+    color: #616774;
+}
+.dinfo .opa{
+    text-decoration: underline !important;
+}
+.dinfo .opa:hover{
+    color: #363740;
+}
+.akun{
+    margin-top: 25px;
+}
+.akun div:last-child{
+    margin-left: 15px;
+}
+.akun img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.akun h5{
+    font-size: 15px;
+    color: #363740;
+    margin: 0 0 2.5px 0;
+}
+.akun p{
+    font-family: 'light';
+    font-size: 13px;
+    color: #959CA8;
+    margin: 0;
+}
+
+.faq{
+    height: auto;
+    width: 100%;
+    padding: 50px 0 125px;
+    background-color: #fff;
+}
+.hfaq{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.hfaq h2 {
+    color: #363740;
+}
+
+.hfaq p {
+    font-family: 'light';
+    font-size: 1rem;
+}
+
+.bfaq{
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+    margin-top: 25px;
+}
+.lbfaq{
+    height: auto;
+    width: 50%;
+    margin-right: 25px;
+}
+.rbfaq{
+    height: auto;
+    width: 50%;
+    margin-left: 25px;
+}
+.dfaq{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+.dfaq h4 {
+    font-family: 'medium';
+    font-size: 20px;
+}
+.dfaq p {
+    font-family: 'light';
+    font-size: 15px;
+    color: #616774;
+    margin-top: 10px;
+}
+.btn-faq{
+    cursor: pointer;
+}
+.btn-faq i{
+    font-size: 15px;
+    color: #3698E3;
+}
+.ans{
+    display: none;
+}
+.ans.action{
+    display: block;
+}
+
+.contact{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+.ccontact{
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+}
+.lcontact{
+    height: auto;
+    width: 40%;
+    margin-right: 50px;
+}
+.lcontact h2 {
+    color: #363740;
+}
+
+.lcontact p {
+    font-family: 'light';
+    font-size: 15px;
+    color: #616774;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.lcontact li{
+    display: block;
+    font-family: 'light';
+    color: #616774;
+    list-style: none;
+    margin-top: 15px;
+}
+.lcontact i{
+    margin-right: 10px;
+}
+.rcontact{
+    height: auto;
+    width: 60%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.timeline {
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+.htimeline h2 {
+    color: #363740;
+}
+
+.btimeline{
+    height: auto;
+    width: 100%;
+    margin-top: 25px;
+    overflow-x: auto;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.btimeline:hover{
+    cursor: grab;
+}
+
+.btimeline::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: #dee4e7;
+}
+
+.btimeline::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #3f5e71;
+}
+
+.ov-timeline{
+    align-items: flex-end;
+    height: auto;
+    width: 100%;
+    min-width: auto;
+}
+.dtimeline{
+    height: auto;
+    min-width: 300px;
+    padding: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #dee4e7;
+}
+.dtimeline:last-child{
+    margin-right: 0px;
+}
+.ltl {
+    display: block;
+    height: 75px;
+    width: 75px;
+    min-width: 75px;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+}
+
+.ltl img {
+    height: auto;
+    width: 100%;
+}
+.dtl h5{
+    font-family: 'medium';
+    font-size: 15px;
+    color: #363740;
+    margin: 0 0 2.5px;
+}
+.dtl p{
+    font-family: 'light';
+    font-size: 13px;
+    color: #616774;
+    margin: 0;
+}
+
+.dtimeline.active{
+    position: relative;
+    height: 75px;
+    background-color: #3f5e71;
+}
+
+.dtimeline.active .ltl{
+    margin-top: -30px;
+}
+
+.dtimeline.active h5,
+.dtimeline.active p {
+    color: #fff;
+}
+
+.gift{
+    height: auto;
+    width: 100%;
+    padding-bottom: 125px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.cgift{
+    height: auto;
+    width: 100%;
+}
+.dgift{
+    height: auto;
+    width: 30%;
+    padding: 50px 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+}
+.dgift:nth-child(2){
+    margin: 0 25px;
+}
+.dgift:hover{
+    transform: scale(1.1) !important;
+    transition: .5s !important;
+}
+.ov-val {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto 75px;
+    border-radius: 100%;
+    background-image: linear-gradient(#6C7BFF, #00A3FF);
+    z-index: 9;
+}
+.ov-val::before {
+    animation: glow infinite 5s;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    opacity: 0.3;
+    border-radius: 100%;
+    background-image: linear-gradient(#00A3FF, #6C7BFF);
+    z-index: -1;
+}
+.ov-val::after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    border-radius: 100%;
+    background-image: linear-gradient(#6C7BFF, #00A3FF);
+    z-index: -1;
+}
+@keyframes glow{
+    0%{
+        filter: blur(0px);
+        transform: scale(1.0);
+    }
+    50%{
+        filter: blur(10px);
+        transform: scale(1.1);
+    }
+    100%{
+        filter: blur(0px);
+        transform: scale(1.0);
+    }
+}
+.ov-val h1{
+    width: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: #fff;
+    margin: 0 0 0 -7.5px;
+}
+.dgift h3{
+    font-size: 30px;
+    color: #363740;
+}
+.dgift p{
+    font-family: 'light';
+    font-size: 25px;
+    margin: 0;
+}
+
+.sponsor {
+    height: auto;
+    width: 100%;
+    padding-bottom: 125px;
+    background-color: #fff;
+}
+
+.hsponsor {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.hsponsor h2 {
+    color: #363740;
+}
+
+.hsponsor p {
+    font-family: 'light';
+    font-size: 1rem;
+}
+
+.bsponsor {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.dsponsor{
+    height: auto;
+    width: 20%;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.dsponsor img{
+    height: 75px;
+    width: auto;
+    vertical-align: middle;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.dsponsor img:hover{
+    filter: grayscale(0%);
+    transition: .5s;
+}
+
+.speak {
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.cspeak {
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+}
+
+.lspeak {
+    height: auto;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.lspeak h2 {
+    color: #363740;
+}
+
+.lspeak p {
+    font-family: 'light';
+    font-size: 15px;
+    color: #616774;
+    margin-top: 25px;
+}
+
+.rspeak {
+    height: auto;
+    width: 70%;
+}
+
+.dspeak{
+    height: auto;
+    width: 47.5%;
+    margin: 0 15px;
+    background-color: #fff;
+}
+
+.dspeak img{
+    height: 200px;
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.dspeak h2{
+    font-family: 'medium';
+    font-size: 20px;
+    color: #363740;
+}
+.dspeak h3{
+    font-family: 'medium';
+    font-size: 15px;
+    color: #41ADFF;
+}
+
+.dspeak p {
+    font-family: 'light';
+    font-size: 14px;
+    color: #616774;
+    margin-bottom: 10px;
+}
+
+.dspeak li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px 0 0;
+}
+.dspeak li:last-child{
+    margin-right: 0;
+}
+
+.dspeak i {
+    font-size: 15px;
+    color: #959CA8;
+    transition: .5s;
+}
+
+.dspeak a {
+    text-decoration: none;
+}
+
+.dspeak a:hover i {
+    color: #41ADFF;
+    transition: .5s;
+}
+
+.detail{
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.cdetail{
+    height: auto;
+    width: 100%;
+}
+.hdetail{
+    height: auto;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.hdetail h1{
+    font-size: 35px;
+    color: #363740;
+}
+.bdetail img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.bdetail h2,
+.bdetail h3,
+.bdetail h4,
+.bdetail h5,
+.bdetail h6 {
+    margin-top: 25px;
+}
+.bdetail p{
+    font-family: 'light';
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: 25px;
+}
+
+.coming{
+    height: auto;
+    width: 100%;
+    padding: 175px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.ccoming{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.ccoming img{
+    display: block;
+    height: 75px;
+    width: auto;
+    margin: 0 auto 25px;
+}
+.ccoming h1{
+    color: #363740;
+}
+.ccoming p{
+    max-width: 550px;
+    font-family: 'light';
+    margin: 0 auto 35px;
+}
+.ccoming p a{
+    text-decoration: underline;
+}
+
+/* <--- Index */
+
+/* Ipad */
+@media screen and (max-width: 992px) {
+    /* Header & Footer ---> */
+    .header {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .header .navbar-brand img {
+        height: 35px;
+    }
+    .header .nav-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .hfooter.bflex{
+        display: block;
+        text-align: center;
+    }
+    .hfooter ul{
+        margin: 0px auto 35px;
+    }
+    /* <--- Header & Footer */
+
+    /* Login ---> */
+    .llogin {
+        width: 100%;
+        transition: .5s;
+    }
+    .rlogin{
+        width: 0%;
+        transition: .5s;
+    }
+    /* <--- Login */
+
+    /* Index ---> */
+    .com .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .ccom:before{
+        height: 450px;
+    }
+    .dcom{
+        height: auto;
+        flex-flow: column-reverse;
+    }
+    .ldcom{
+        width: 100%;
+        max-width: 100%;
+        padding: 25px 0 25px;
+        margin-right: 0px;
+    }
+    .rdcom {
+        height: 350px !important;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .dinfo {
+        height: auto;
+        width: 100%;
+        margin: 0px 15px;
+    }
+
+    .info{
+        padding-bottom: 125px;
+    }
+
+    .faq {
+        padding: 0 0 100px;
+    }
+
+    .ccontact{
+        display: block;
+    }
+    .lcontact{
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .rcontact{
+        width: 100%;
+        padding: 25px;
+    }
+
+    .cgift.bflex{
+        display: block;
+    }
+
+    .dgift {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        width: 100%;
+        padding: 25px;
+    }
+
+    .dgift p {
+        font-size: 20px !important;
+    }
+
+    .dgift div:last-child{
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .ov-val{
+        margin: 0;
+    }
+
+    .dgift:nth-child(2) {
+        margin: 25px 0;
+    }
+
+    .cspeak{
+        display: block;
+    }
+    .lspeak{
+        height: auto;
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .rspeak{
+        height: auto;
+        width: 100%;
+    }
+    /* <--- Index */
+}
+
+/* Iphone */
+@media screen and (max-width: 768px) {
+    /* Rule ---> */
+    h1{
+        font-size: 35px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    /* <--- Rule */
+
+    /* Index ---> */
+    .ctitle img {
+        height: 50px !important;
+        width: auto;
+    }
+    .one-com {
+        padding-top: 125px;
+    }
+    .ccom{
+        padding: 0px 15px 35px;
+    }
+    .ldcom{
+        padding: 25px 25px 25px;
+    }
+    .ccom:before{
+        animation: rash infinite 5s;
+        height: 550px;
+    }
+    @keyframes rash{
+        0%{
+            transform: rotate(2deg);
+        }
+        50%{
+            transform: rotate(-2deg);
+        }
+        100% {
+            transform: rotate(2deg);
+        }
+    }
+    .bfaq{
+        display: block;
+    }
+    .lbfaq{
+        width: 100%;
+        margin-right: 0;
+    }
+    .rbfaq {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .dgift {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 50px 25px;
+    }
+
+    .dgift p {
+        font-size: 20px !important;
+    }
+
+    .dgift div:last-child {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .ov-val {
+        margin: 0 auto 50px;
+    }
+
+    .dgift:nth-child(2) {
+        margin: 50px 0;
+    }
+
+    .dsponsor {
+        height: auto;
+        width: 30%;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .dspeak {
+        height: auto;
+        width: 100%;
+        margin: 0 15px;
+    }
+    /* <--- Index */
+
+    /* Header & Footer ---> */
+
+    .bfooter.bflex{
+        display: block;
+        text-align: center;
+    }
+
+    /* <--- Header & Footer */
+}
+</style>
